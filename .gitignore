@@ -1,0 +1,24 @@
+Note/note.md
+
+# Thư mục node_modules (cả ở thư mục gốc và các thư mục con)
+node_modules/
+*/node_modules/
+
+# File biến môi trường
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files
+*.log
+npm-debug.log*
+
+# Các file tạm thời hoặc build output
+/dist
+/build
+*.DS_Store
+
+# Các file cấu hình IDE (tuỳ chọn, nếu bạn dùng VSCode hoặc các IDE khác)
+.vscode/
+.idea/
